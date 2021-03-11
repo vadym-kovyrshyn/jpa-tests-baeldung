@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableJpaRepositories("com.mypack.repo")
-@EntityScan("com.mypack")
+//@EnableJpaRepositories("com.mypack.repo")
+//@EntityScan("com.mypack")
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
